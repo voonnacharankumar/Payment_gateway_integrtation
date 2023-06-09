@@ -1,0 +1,118 @@
+body {
+  background-image: url("images/WhatsApp\ Image\ 2022-09-06\ at\ 11.32.55\ PM.jpeg");
+  color: white;
+}
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0.7, 0.5, 0.1, 0.1);
+  pointer-events: none;
+  background-blend-mode: darken;
+  z-index: -1;
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #ff004f;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.5s;
+}
+.navbar .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #ff004f;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #ff004f;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+  color: white;
+}
+.header-text {
+  color: white;
+  margin-left: 30%;
+  margin-top: 20%;
+}
+#about {
+  color: white;
+}
+hr {
+  height: 1px;
+}
+img {
+  height: 300px;
+}
+#about {
+  background-image: url("images/bg1.jpg");
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container h1 {
+  justify-content: center;
+  margin-left: 482px;
+}
+.about-col-1 img {
+  border-radius: 15px;
+}
+.about-col-3 img {
+  border-radius: 15px;
+  height: -15px;
+}
+.aa {
+  border: solid 4px yellow;
+  display: inline-block;
+  border-radius: 20px;
+}
+.aa:hover {
+  border: solid 6px #ff004f;
+}
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  height: 19px;
+  border: 0;
+  border-top: 9px solid;
+  opacity: 1.25;
+}
+.about-col-2 h2 {
+  color: yellow;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.a {
+  color: #ff004f;
+  margin-top: 13px;
+  margin-bottom: -1.5rem;
+}
+h2:hover {
+  color: #ff004f;
+}

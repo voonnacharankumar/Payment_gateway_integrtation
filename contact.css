@@ -1,0 +1,113 @@
+body {
+  background-image: url("images/WhatsApp\ Image\ 2022-09-06\ at\ 11.32.55\ PM.jpeg");
+  color: white;
+}
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0.7, 0.5, 0.1, 0.1);
+  pointer-events: none;
+  background-blend-mode: darken;
+  z-index: -1;
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #ff004f;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.5s;
+}
+.navbar .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #ff004f;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #ff004f;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+  color: white;
+}
+.contact {
+  color: white;
+  position: relative;
+  min-height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  border: solid yellow 2px;
+  border-radius: 15px;
+}
+.a {
+  color: #ff004f;
+  margin-top: 13px;
+  margin-bottom: -1.5rem;
+}
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  height: 19px;
+  border: 0;
+  border-top: 9px solid;
+  opacity: 1.25;
+  /* border: 1px solid red; */
+  border-top: 8px red solid;
+}
+.b {
+  color: yellow;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+#bob {
+  background-color: yellow;
+  border-radius: 10PX;
+}
+
+#bob:hover {
+  background-color:#ff004f;
+}
+
+.abcd {
+  margin: auto;
+  padding: 6px;
+  border: #ff004f;
+  border-width: 3px;
+  display: inline-block;
+}
+
+.contactform {
+  margin-left: 35rem;
+  padding-top: 2rem;
+}
+
+h3:hover {
+  color: #ff004f;
+}
